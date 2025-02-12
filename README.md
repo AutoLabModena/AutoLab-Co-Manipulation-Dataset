@@ -1,9 +1,9 @@
-# Panda-Co-Manipulation-Dataset
-### A dataset of Franka Emika Panda recordings of 2D symbols.
+# AutoLab-Co-Manipulation-Dataset
+### A dataset of Robot recordings of 2D symbols.
 
 ![dataset](https://github.com/user-attachments/assets/dcf92aaf-e12a-4233-add4-427d039acaeb)
 
-Welcome to the **Panda Co-Manipulation Dataset** page! <br>
+Welcome to the **AutoLab Co-Manipulation Dataset** page! <br>
 This is a public available dataset and comprises of 21 different 2D symbols. Each symbol was printed in A4 format, then traced back with the help of a Franka Emika Panda robot, equipped with a Schunk FT-AXIA force/torque sensor. <br>
 Six recordings were made for each symbols, by fixing the start and end point to be always the same. In the provided __files.pdf__ related to the symbols, start and end points are represented, respectively, by a circle and an asterisk.
 
@@ -47,7 +47,7 @@ F   = symbol_data[i]['F']
 <br>
 <br>
 
-The Panda Co-Manipulation Dataset was introducted as part of the paper entitled **Arc-Length-Based Warping for Robot Skill Synthesis from Multiple Demonstrations** by __G.Braglia, D.Tebaldi, A.E.Lazzaretti and L.Biagiotti__, from University of Modena and Reggio Emilia and Federal Technological University of Paranà. <br>
+The AutoLab Co-Manipulation Dataset was introducted as part of the paper entitled **Arc-Length-Based Warping for Robot Skill Synthesis from Multiple Demonstrations** by __G.Braglia, D.Tebaldi, A.E.Lazzaretti and L.Biagiotti__, from University of Modena and Reggio Emilia and Federal Technological University of Paranà. <br>
 If you find this dataset useful for your work/research, please cite:
 ```bibtex
 @misc{braglia2024arclengthbasedwarpingrobotskill,
@@ -63,7 +63,7 @@ If you find this dataset useful for your work/research, please cite:
 
 ## Folders
 
-- **Panda_CoManipulation_Data/** : dataset files in .mat and .npy format, for each symbol a .pdf file depicting the respective symbol is included;
+- **AutoLab_CoManipulation_Data/** : dataset files in .mat and .npy format, for each symbol a .pdf file depicting the respective symbol is included;
 - **load_example.m** : a MATLAB code to plot symbol recordings;
 - **load_example.py** : a Python code to plot symbol recordings;
 
